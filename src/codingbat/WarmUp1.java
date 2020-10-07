@@ -91,11 +91,55 @@ public class WarmUp1 {
 	}
 
 	public String frontBack(String str) {
-		  if (str.length() <= 1) return str;
+		int len = str.length();
+		
+		if (len > 1) {
+		char fornt = str.charAt(0);
+		char back = str.charAt(str.len-1);
+		
+		Strgin mid = str.substring(1, len-1);
+		
+		return back + mid + front;
+		} else {
+			return str;
+		}
+		////////////////////////
+		if (str.length() <= 1)
+			return str;
+
+		String mid = str.substring(1, str.length() - 1);
+
+		// last + mid + first
+		return str.charAt(str.length() - 1) + mid + str.charAt(0);
+		}
+	
+	public String front3(String str) {
+		
+		int len = str.length();
 		  
-		  String mid = str.substring(1, str.length()-1);
+		String front = str;
+
+		if (len >= 3) {
+			front = str.substring(0, 3);
+		}
+		String res = "";
+		int i = 0;
+		while (i < 3) {
+			res += front;
+			i++;
+		}
+		
+		return res;
+		
+		String str1;
+
+		if (str.length() >= 3) {
+			str1 = str.substring(0, 3);
+		} else {
+			str1 = str;
+		}
+
+		return str1 + str1 + str1;
 		  
-		  // last + mid + first
-		  return str.charAt(str.length()-1) + mid + str.charAt(0);
 		}
 }
