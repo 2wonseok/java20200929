@@ -9,7 +9,7 @@ public class ArrayCreateByValueListExmaple2 {
 		for (int i = 0; i <= 2; i++) {
 			sum1 += scores[i];
 		}
-		System.out.println("총합 : " + sum1);
+		System.out.println("총합 : " + sum1); 
 		
 		// ex2
 		int sum2 = add( new int[] { 83, 90, 87});
