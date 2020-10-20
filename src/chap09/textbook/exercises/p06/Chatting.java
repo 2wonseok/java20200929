@@ -2,7 +2,8 @@ package chap09.textbook.exercises.p06;
 
 public class Chatting {
 	void startChat(String chatId) {
-		String nickName = null; // String nickName = chatId;
+		String nickName = null;
+		// String nickName = chatId;
 		nickName = chatId;		// 지우면 됨.
 		Chat chat = new Chat() {
 			@Override
