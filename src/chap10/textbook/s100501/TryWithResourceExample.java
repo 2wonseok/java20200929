@@ -6,7 +6,7 @@ public class TryWithResourceExample {
 			fis.read();
 			throw new Exception();
 		} catch(Exception e) {
-			System.out.println("예외 처리 코드가 실행되었습니다."); //1 커밋용
+			System.out.println("예외 처리 코드가 실행되었습니다."); 
 		}
 	}
 }
