@@ -1,5 +1,5 @@
 package chap09.textbook.s090503;
 
 public interface Calculatable {
-	public int sum();
+	public int sum(); //에베베
 }
