@@ -10,4 +10,4 @@ public class BoundedTypeParameterExample {
 		int result2 = Util.compare(4.5, 3);
 		System.out.println(result2);
 	}
-}
+} // 테스트 커밋
