@@ -21,6 +21,11 @@ public class ArrayListExample {
 		System.out.println("2: " + skill);
 		System.out.println();
 		
+		System.out.println("-----향상된 for문-----");
+		for (String str1 : list) {
+			System.out.println(str1);
+		}
+		System.out.println("-----일반 for문-----");
 		for (int i = 0; i < list.size(); i++) {
 			String str = list.get(i);
 			System.out.println(i + ":" + str);
