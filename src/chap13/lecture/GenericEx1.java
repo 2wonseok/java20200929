@@ -6,13 +6,16 @@ public class GenericEx1 {
 		o1.method1();
 		o1.method2(new Object());
 		o1.method2("java");
-		o1.method2(300 );
+		o1.method2(300);
+		
+		System.out.println("-----------------");		
 		
 		MyClass<String> o2 = new MyClass<String>();
 		o2.method1();
 		o2.method2("java");
+//		o2.method2(300);
 //		o2.method2(new Object());
-		
+		System.out.println("-----------------");
 		MyClass<Integer> o3 = new MyClass<Integer>();
 		o3.method2(100);
 	}
