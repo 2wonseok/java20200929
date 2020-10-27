@@ -8,7 +8,7 @@ public class FileWriterExample {
 		File file = new File("file.txt");
 		FileWriter fw = new FileWriter(file, true);
 		
-		fw.write("FileWrite는 한글로된 " + "\r\n");
+		fw.write("FileWrite 는 한글로된 " + "\r\n");
 		fw.write("문자열을 바로 출력할 수 있다." + "\r\n");
 		
 		fw.flush();

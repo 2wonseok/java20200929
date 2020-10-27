@@ -18,8 +18,8 @@ public class FileOutputStreamExample {
 		}
 		
 		fos.flush();
-		fis.close();
 		fos.close();
+		fis.close();
 		
 		
 		System.out.println("복사가 잘 되었습니다."); //zㅋㅋㅋㅋ

@@ -24,7 +24,6 @@ public class FileCopy {
 		char[] cbuf = new char[100];
 		while ((readCharNO = reader.read(cbuf)) != -1) {
 			String data = new String(cbuf, 0, readCharNO);
-//			System.out.print(data);
 			writer.write(data);
 		}
 		
