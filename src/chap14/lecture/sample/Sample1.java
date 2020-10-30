@@ -6,7 +6,6 @@ import java.util.function.Consumer;
 public class Sample1 {
 	public static void main(String[] args) {
 		List<String> names = new ArrayList<>();
-		
 		names.add("java");
 		names.add("html");
 		names.add("css");
